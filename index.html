@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        ;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: rgb(29, 29, 29);
+        
+
+    }
+
+    .card1{
+        position: relative;
+        width: 350px;
+        height: 190px;
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+        transition: 0.5s;
+
+    }
+
+    .card1:hover{
+        height: 450px;
+    }
+
+    .img{
+        position: absolute;
+        left: 50%;
+        top: -50px;
+        transform: translateX(-50%);
+        width:150px;
+        height:150px;
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    .card1:hover .img{
+
+        width: 250px;
+        height: 250px;
+    }
+
+
+
+    .img img{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+
+    }
+
+    .card1 .content{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .card1 .content .text{
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+        transition: 0.5s;
+        transform: translateY(30px);
+    }
+
+    .card1 .content .text h2{
+        font-size: 1.25em;
+        font-weight: 600;
+        color: #555;
+        line-height: 1.2em;
+    }
+
+    .card1 .content .text span{
+        font-size: 0.75em;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+
+    .titleprincipal{
+        position: absolute;
+        transform: translateY(150px);
+        color: #fff;
+    }
+    .titlesecondary{
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+    }
+
+    
+    .videoyutu{
+        position: absolute;
+        transform: translateY(500px);
+        color: #fff;
+    }
+
+</style>
+
+
+
+<body>
+
+
+    <h1 class="titleprincipal">GRUPO #11 TECNOLOGÍAS PARA LA WEB  NRC: 16394</h1>
+
+    
+
+
+<div class="cardss">
+
+
+
+</div>
+
+
+    <div class="card1">
+        <div class="img">
+            <img src="../ProyectoFinal - Tecnologías para la Web/images/1e81d706-220c-49f9-bed4-94b31e8399e4.jpg" >
+        </div>
+
+        <div class="content">
+            <div class="text">
+              
+                <h2>Agustín Mites</h2>
+                <br>
+            </div>
+        </div>
+       
+    </div>
+
+
+
+    <div class="card1">
+        <div class="img">
+            <img src="../ProyectoFinal - Tecnologías para la Web/images/7a794b6c-51fe-4ddb-a029-5b9d92d6a444.jpg">
+        </div>    
+        <div class="content">
+            <div class="text">
+
+                <h2>Santiago Llumiquinga</h2>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
+
+     <div class="card1">
+        <div class="img">
+            <img src="../ProyectoFinal - Tecnologías para la Web/images/yo.jpg  "/>  </div>
+
+        <div class="content">
+            <div class="text">
+                
+                <h2>Milena Reyes</h2>
+                <br>
+            </div>
+    </div>
+    </div>
+
+         
+    
+
+
+    <div class="card1">
+        <div class="img">
+            <img src="../ProyectoFinal - Tecnologías para la Web/images/f345610c-dc74-4a6c-a272-aae5ac699e20.jpg" >
+        </div>
+
+        <div class="content">
+            <div class="text">
+                
+                <h2>Johanna Moncayo</h2>
+                <br>
+
+            </div>
+        </div>  
+    </div>
+
+    <div class="card1">
+        <div class="img">
+            <img src="../ProyectoFinal - Tecnologías para la Web/images/jhon.png" >
+        </div>
+
+        <div class="content">
+            <div class="text">
+                
+                <h2>Jhon Bedoya</h2>
+                <br>
+            </div>
+        </div>  
+    </div>
+
+
+<div class="videoyutu">
+    <h1 class="titlesecondary"> Video Proyecto</h1>
+
+    <div id="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eQMcIGVc8N0?si=XiJ2_UYc3h925f4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</div>                    
+</body>
+</html>
